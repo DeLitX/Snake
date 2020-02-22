@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    android:id="@+id/background">
+
+    <TextView
+        android:id="@+id/textViewTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Dark theme:"
+        android:textSize="24sp" />
+
+    <Switch
+        android:id="@+id/darkTheme"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:text="  " />
+    <TextView
+        android:id="@+id/textViewSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:text="Speed:"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarSpeed"
+        android:layout_width="170dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:max="9"
+        android:progress="4" />
+    <TextView
+        android:id="@+id/textViewControls"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:text="Controls:"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textViewGyro"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:text="Gyroscope:"
+        android:textSize="24sp" />
+
+    <Switch
+        android:id="@+id/gyroscope"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="200dp"
+        android:text="  "
+        android:checked="true"/>
+    <TextView
+        android:id="@+id/textViewSwipes"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="250dp"
+        android:text="Swipes:"
+        android:textSize="24sp" />
+
+    <Switch
+        android:id="@+id/swipes"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="250dp"
+        android:text="  "
+        android:checked="true"/>
+
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:text="Size:"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarSize"
+        android:layout_width="170dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="330dp"
+        android:max="15"
+        android:progress="7" />
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="375dp"
+        android:text="Snake type:"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/typeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="370dp"/>
+    <Button
+        android:id="@+id/typeSquare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Square"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="370dp"/>
+
+</RelativeLayout>
